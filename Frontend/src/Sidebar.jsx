@@ -2,6 +2,7 @@ import { useContext, useEffect } from "react";
 import "./Sidebar.css";
 import { MyContext } from "./MyContext";
 import { v1 as uuidv1 } from "uuid";
+import "dotenv/config"
 
 function Sidebar() {
   const {
