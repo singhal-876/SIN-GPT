@@ -2,7 +2,6 @@ import { useContext, useEffect } from "react";
 import "./Sidebar.css";
 import { MyContext } from "./MyContext";
 import { v1 as uuidv1 } from "uuid";
-import "dotenv/config"
 
 function Sidebar() {
   const {
@@ -80,7 +79,7 @@ function Sidebar() {
   return (
     <section className="sidebar">
       <button onClick={createNewChat}>
-        <img src="src/assets/blacklogo.png" alt="GPT Logo" className="logo" />
+        <img src="/blacklogo.png" alt="GPT Logo" className="logo" />
         <span>
           <i className="fa-solid fa-pen-to-square"></i>
         </span>

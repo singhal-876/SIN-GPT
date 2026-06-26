@@ -3,7 +3,6 @@ import Chat from "./Chat.jsx";
 import { MyContext } from "./MyContext.jsx";
 import { useContext, useState, useEffect } from "react";
 import { ScaleLoader } from "react-spinners";
-import "dotenv/config"
 
 function ChatWindow() {
   const {
@@ -33,7 +32,7 @@ function ChatWindow() {
     };
 
     try {
-      const response = await fetch(`${import.meta.env.VITE_API_URL}`, options);
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/api/chat`, options);
       const res = await response.json();
       console.log(res);
       setReply(res.reply);
