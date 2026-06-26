@@ -19,6 +19,31 @@ interface.
 
 ---
 
+## 📑 Table of Contents
+
+- [✨ Key Features](#-key-features)
+- [🛠️ Tech Stack](#%EF%B8%8F-tech-stack)
+- [📁 Project Structure](#-project-structure)
+- [🎨 UI Highlights](#-ui-highlights)
+- [🏗️ Architecture](#-architecture)
+- [🗝️ Key Components](#-key-components)
+- [📖 API Routes](#-api-routes)
+- [❓ How It Works](#-how-it-works)
+- [💬 Chat Flow](#-chat-flow)
+- [📒 Data Models](#-data-models)
+- [🗄️ Database Schema](#-database-schema)
+- [🤖 Groq Integration](#-groq-integration)
+- [☁️ Render Deployment](#-render-deployment)
+- [📁 Folder Purpose Summary](#-folder-purpose-summary)
+- [🚀 Getting Started](#-getting-started)
+- [🌐 Deployment on Render](#-deployment-on-render)
+- [📚 Learning Outcomes](#-learning-outcomes)
+- [🚀 Future Improvements](#-future-improvements)
+- [🤝 Contributing](#-contributing)
+- [👨‍💻 Author](#-author)
+
+---
+
 # ✨ Key-Features
 
 -   🤖 AI-powered conversations using Groq Cloud
